@@ -3,21 +3,62 @@ body {
     text-align: center;
     background-image: url("uglyBG.png");
 }
+main {
+    margin-left: 320px; 
+}
+/* Reference: https://stackoverflow.com/questions/7282236/placing-an-image-to-the-top-right-corner-css */
+img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    max-height: 20%;
+    max-width: 20%;
+}
+/* Reference: https://www.w3schools.com/css/css_navbar_horizontal.asp */
+.navbar {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.bar {
+    float: left;
+}
+.nav {
+    display: block;
+    padding: 8px;
+    background-color: red;
+}
 h1 {
     color: blue;
 }
 h3 {
     color: yellow;
 }
-.intro {
+section {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+#intro {
     color: pink;
 }
-.history {
+#history {
     color: greenyellow;
 }
-.offer {
+#offer {
     color: red;
 }
-.points {
+/* Reference: https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp */
+aside {
     color: skyblue;
+    height: 50%; 
+    width: 320px; 
+    position: fixed; 
+    z-index: 1;
+    top: 160px; 
+    left: 0;
+    background-color: black; 
+    overflow-x: hidden; 
+    padding-top: 20px;
 }
