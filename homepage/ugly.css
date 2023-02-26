@@ -1,10 +1,16 @@
 body {
-    background-color: powderblue;
+    background-color: black;
     text-align: center;
     background-image: url("uglyBG.png");
 }
 main {
     margin-left: 320px; 
+}
+h1 {
+    color: blue;
+}
+h3 {
+    color: yellow;
 }
 /* Reference: https://stackoverflow.com/questions/7282236/placing-an-image-to-the-top-right-corner-css */
 img {
@@ -16,26 +22,20 @@ img {
     max-width: 20%;
 }
 /* Reference: https://www.w3schools.com/css/css_navbar_horizontal.asp */
-.navbar {
+nav ul {
     display: inline-block;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
-.bar {
+nav li {
     float: left;
 }
-.nav {
+nav a {
     display: block;
     padding: 8px;
     background-color: red;
-}
-h1 {
-    color: blue;
-}
-h3 {
-    color: yellow;
 }
 section {
     font-family: "Comic Sans MS", "Comic Sans", cursive;

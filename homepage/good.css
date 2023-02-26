@@ -1,0 +1,58 @@
+body {
+    background-color: white;
+}
+main {
+    margin-right: 320px; 
+}
+header {
+    height: 250px;
+    width: 100%;
+    background-color: powderblue;
+    text-align: center;
+}
+/* Reference: https://stackoverflow.com/questions/7282236/placing-an-image-to-the-top-right-corner-css */
+img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    max-height: 25%;
+    max-width: 25%;
+}
+nav {
+    text-align: center;
+}
+/* Reference: https://www.w3schools.com/css/css_navbar_horizontal.asp */
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav li {
+    float: left;
+}
+nav a {
+    display: block;
+    padding: 8px;
+    color: white; 
+    background-color: lightslategrey;
+}
+/* Reference: https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp */
+aside {
+    color: black; 
+    height: 50%; 
+    width: 320px; 
+    position: fixed; 
+    z-index: 1;
+    top: 320px; 
+    right: 0;
+    background-color: lightgray; 
+    overflow-x: hidden; 
+    padding-top: 20px;
+}
+
+aside ul {
+    list-style-type: none;
+}
