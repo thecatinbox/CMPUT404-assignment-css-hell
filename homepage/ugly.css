@@ -1,0 +1,23 @@
+body {
+    background-color: powderblue;
+    text-align: center;
+    background-image: url("uglyBG.png");
+}
+h1 {
+    color: blue;
+}
+h3 {
+    color: yellow;
+}
+.intro {
+    color: pink;
+}
+.history {
+    color: greenyellow;
+}
+.offer {
+    color: red;
+}
+.points {
+    color: skyblue;
+}
