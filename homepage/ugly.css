@@ -4,7 +4,8 @@ body {
     background-image: url("background.png");
 }
 main {
-    margin-left: 280pt; 
+    margin-left: 220pt; 
+    margin-right: 220pt; 
 }
 h1 {
     color: blue;
@@ -17,12 +18,12 @@ h3 {
 }
 /* Reference: https://stackoverflow.com/questions/7282236/placing-an-image-to-the-top-right-corner-css */
 img {
-    position: absolute;
-    right: 0;
-    top: 0;
+    position: fixed;
+    right: 20pt;
+    top: 200pt;
     display: block;
-    max-height: 25%;
-    max-width: 25%;
+    max-height: 30%;
+    max-width: 30%;
 }
 /* Reference: https://www.w3schools.com/css/css_navbar_horizontal.asp */
 nav ul {
@@ -56,7 +57,7 @@ section {
 aside {
     color: skyblue;
     height: 50%; 
-    width: 280pt; 
+    width: 200pt; 
     position: fixed; 
     z-index: 1;
     top: 160pt; 
