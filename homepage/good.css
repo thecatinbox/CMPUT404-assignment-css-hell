@@ -33,6 +33,23 @@ nav {
 li {
     margin: 16pt 0;
 }
+section div {
+    margin-top: 12pt;
+    margin-bottom: 12pt;
+    padding: 12pt;
+}
+section .left-img {
+    float: left;
+    max-width: 25%;
+    max-height: 25%;
+    padding-right: 15pt;
+}
+section .right-img {
+    float: right;
+    max-width: 25%;
+    max-height: 25%;
+    padding-left: 15pt;
+}
 /* Reference: https://www.w3schools.com/css/css_navbar_horizontal.asp */
 nav ul {
     display: inline-block;

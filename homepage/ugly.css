@@ -31,7 +31,7 @@ h1, h3 {
 p, h1, h2, h3, li {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
-img {
+header img {
     position: absolute;
     right: 150pt;
     top: 50pt;
@@ -46,6 +46,9 @@ nav {
 }
 li {
     margin: 16pt 0;
+}
+section img {
+    display: none;
 }
 /* Reference: https://www.w3schools.com/css/css_navbar_horizontal.asp */
 nav ul {
