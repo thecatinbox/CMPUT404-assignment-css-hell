@@ -30,3 +30,17 @@ Step 2: Find the ```<head>``` tag in the html file.
 Step 3: Add ```link rel="stylesheet" href="styles.css">``` inside the ```<head>``` tag. Make sure it's after the ```<style>``` tag so it overwrites its original webpage styles. 
 
 Step 4: Modify styles.css and you should see your changes. 
+
+Resources List 
+====================
+cat.png: https://www.pngmart.com/image/514459 
+
+dog.png: https://www.freepnglogos.com/pics/dog
+
+history.png: https://www.flaticon.com/free-icon/computer_224597
+
+lightning.png: https://www.onlygfx.com/cartoon-lightning-bolt-png-transparent/ 
+
+value.png: https://www.flaticon.com/free-icon/profit_9845032 
+
+paper.png: https://www.pinterest.ca/pin/old-paper-texture-seamless-pattern--386676317990825029/ 
