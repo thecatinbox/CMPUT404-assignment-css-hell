@@ -4,10 +4,13 @@ body {
     background-image: url("uglyBG.png");
 }
 main {
-    margin-left: 320px; 
+    margin-left: 280pt; 
 }
 h1 {
     color: blue;
+}
+h2 {
+    font-size: 16pt;
 }
 h3 {
     color: yellow;
@@ -18,8 +21,8 @@ img {
     right: 0;
     top: 0;
     display: block;
-    max-height: 20%;
-    max-width: 20%;
+    max-height: 25%;
+    max-width: 25%;
 }
 /* Reference: https://www.w3schools.com/css/css_navbar_horizontal.asp */
 nav ul {
@@ -34,7 +37,7 @@ nav li {
 }
 nav a {
     display: block;
-    padding: 8px;
+    padding: 8pt;
     background-color: red;
 }
 section {
@@ -53,12 +56,12 @@ section {
 aside {
     color: skyblue;
     height: 50%; 
-    width: 320px; 
+    width: 280pt; 
     position: fixed; 
     z-index: 1;
-    top: 160px; 
+    top: 160pt; 
     left: 0;
     background-color: black; 
     overflow-x: hidden; 
-    padding-top: 20px;
+    padding-top: 20pt;
 }

@@ -2,10 +2,10 @@ body {
     background-color: white;
 }
 main {
-    margin-right: 320px; 
+    margin-right: 320pt; 
 }
 header {
-    height: 250px;
+    height: 250pt;
     width: 100%;
     background-color: powderblue;
     text-align: center;
@@ -20,6 +20,9 @@ img {
     max-width: 25%;
 }
 nav {
+    height: 40pt;
+    width: 100%;
+    background-color: lightslategrey;
     text-align: center;
 }
 /* Reference: https://www.w3schools.com/css/css_navbar_horizontal.asp */
@@ -35,7 +38,8 @@ nav li {
 }
 nav a {
     display: block;
-    padding: 8px;
+    padding: 8pt;
+    font-size: 20pt;
     color: white; 
     background-color: lightslategrey;
 }
@@ -43,16 +47,28 @@ nav a {
 aside {
     color: black; 
     height: 50%; 
-    width: 320px; 
+    width: 280pt; 
     position: fixed; 
     z-index: 1;
-    top: 320px; 
-    right: 0;
-    background-color: lightgray; 
+    top: 320pt; 
+    right: 8pt;
+    background-color: rgb(243, 243, 243); 
     overflow-x: hidden; 
-    padding-top: 20px;
+    padding-top: 20pt;
+    text-align: center;
 }
-
+aside h2 {
+    padding-left: 30pt;
+    padding-right: 30pt;
+    font-size: 32pt;
+}
 aside ul {
+    padding-left: 30pt;
+    padding-right: 30pt;
     list-style-type: none;
+}
+aside li {
+    color: blue;
+    font-size: 20pt;
+    margin: 16pt 0;
 }
