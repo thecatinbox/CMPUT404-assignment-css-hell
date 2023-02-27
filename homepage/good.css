@@ -4,7 +4,7 @@ body {
     background-color: white;
 }
 main {
-    margin-right: 320pt; 
+    margin-right: 34%; 
 }
 header {
     height: 240pt;
@@ -19,7 +19,6 @@ header {
     text-align: center;
     margin-bottom: 10pt;
 }
-/* Reference: https://stackoverflow.com/questions/7282236/placing-an-image-to-the-top-right-corner-css */
 img {
     margin-top: 16pt;
     max-height: 50%;
@@ -31,6 +30,9 @@ nav {
     background-color: lightslategrey;
     text-align: center;
 }
+li {
+    margin: 16pt 0;
+}
 /* Reference: https://www.w3schools.com/css/css_navbar_horizontal.asp */
 nav ul {
     display: inline-block;
@@ -41,6 +43,7 @@ nav ul {
 }
 nav li {
     float: left;
+    margin: 0;
 }
 nav a {
     display: block;
@@ -51,28 +54,27 @@ nav a {
 /* Reference: https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp */
 aside {
     color: black; 
-    height: 220pt; 
-    width: 280pt; 
+    width: 24%; 
     position: absolute; 
     z-index: 1;
-    top: 300pt; 
+    top: 280pt; 
     right: 10%;
-    background-color: rgb(243, 243, 243); 
+    background-color: whitesmoke; 
     overflow-x: hidden; 
-    padding-top: 10pt;
+    padding-top: 12pt;
+    padding-bottom: 20pt;
     text-align: center;
 }
 aside h2 {
-    padding-left: 40pt;
-    padding-right: 40pt;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 aside ul {
-    padding-left: 40pt;
-    padding-right: 40pt;
+    padding-left: 20%;
+    padding-right: 20%;
     list-style-type: none;
 }
 aside li {
     color: lightslategrey;
-    font-size: 14pt; 
-    margin: 16pt 0;
+    font-size: 14pt;
 }
