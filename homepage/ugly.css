@@ -1,7 +1,7 @@
 body {
     background-color: black;
     text-align: center;
-    background-image: url("uglyBG.png");
+    background-image: url("background.png");
 }
 main {
     margin-left: 280pt; 
