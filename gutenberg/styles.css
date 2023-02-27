@@ -56,9 +56,19 @@ p {
     font-size: 95%; 
 }
 p.poem {
+    font-size: 90%; 
     margin-left: 0;
     margin-right: 0;
     text-align: center;
+    color: firebrick;
+}
+p.asterism, p.letter, p.noindent {
+    font-size: 90%; 
+    color: firebrick;
+}
+p.footnote, p.center {
+    font-size: 130%; 
+    color: firebrick;
 }
 table {
     margin-left: auto; 
