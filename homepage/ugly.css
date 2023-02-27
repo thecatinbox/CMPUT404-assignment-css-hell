@@ -1,29 +1,51 @@
 body {
-    background-color: black;
-    text-align: center;
-    background-image: url("background.png");
+    width: 80%;
+    margin: auto;
+    background-color: white;
 }
 main {
-    margin-left: 220pt; 
-    margin-right: 220pt; 
+    margin-right: 34%; 
 }
-h1 {
-    color: blue;
+header {
+    height: 220pt;
+    width: 100%;
+    text-align: center;
+    background-image: url("background.png");
+    background-size:100% 100%;
 }
-h2 {
-    font-size: 16pt;
+.title {
+    margin: auto;
+    width: 60%;
+    height: 60%;
+    text-align: center;
 }
-h3 {
-    color: yellow;
+/* Reference: https://welearncode.com/rainbow-text/ */ 
+
+h1, h3 {
+    font-family: sans-serif;
+    font-size: 320%;
+    background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-/* Reference: https://stackoverflow.com/questions/7282236/placing-an-image-to-the-top-right-corner-css */
+p, h1, h2, h3, li {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
 img {
-    position: fixed;
-    right: 20pt;
-    top: 200pt;
-    display: block;
-    max-height: 30%;
-    max-width: 30%;
+    position: absolute;
+    right: 150pt;
+    top: 50pt;
+    max-height: 25%;
+    max-width: 25%;
+}
+nav {
+    height: 52pt;
+    width: 100%;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+li {
+    margin: 16pt 0;
 }
 /* Reference: https://www.w3schools.com/css/css_navbar_horizontal.asp */
 nav ul {
@@ -31,38 +53,47 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 nav li {
     float: left;
+    margin: 0;
 }
 nav a {
     display: block;
     padding: 8pt;
-    background-color: red;
-}
-section {
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: black; 
+    background-color: orange;
 }
 #intro {
-    color: pink;
+    background-color: magenta;
 }
-#history {
-    color: greenyellow;
-}
-#offer {
-    color: red;
+#intro p {
+    color: white;
 }
 /* Reference: https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp */
 aside {
-    color: skyblue;
-    height: 50%; 
-    width: 200pt; 
-    position: fixed; 
+    color: black; 
+    width: 24%; 
+    position: absolute; 
     z-index: 1;
-    top: 160pt; 
-    left: 0;
-    background-color: black; 
+    top: 320pt; 
+    right: 10%;
+    background-color: yellow; 
     overflow-x: hidden; 
-    padding-top: 20pt;
+    padding-top: 12pt;
+    padding-bottom: 20pt;
+    text-align: center;
+}
+aside h2 {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+aside ul {
+    padding-left: 20%;
+    padding-right: 20%;
+    list-style-type: none;
+}
+aside li {
+    color: darkcyan;
+    font-size: 14pt;
 }
