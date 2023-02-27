@@ -21,4 +21,10 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
+=================
 
+How to apply CSS to the project gutenberg HTML files
+Step 1: Create styles.css in the same root folder as the html files
+Step 2: Find the <head> tag in the html file
+Step 3: Add <link rel="stylesheet" href="styles.css"> inside the <head> tag. Make sure it's after the <style> tag so it overwrites its original style. 
+Step 4: Modify styles.css and you should see your changes 
