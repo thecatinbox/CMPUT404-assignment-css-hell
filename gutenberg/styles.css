@@ -1,90 +1,114 @@
+/* Background image from: https://www.pinterest.ca/pin/old-paper-texture-seamless-pattern--386676317990825029/ */ 
 body {
-    background: #faebd0;
-    margin-left: 20%;
-    margin-right: 20%;
-    text-align: justify
-    }
+    color: darkred;
+    background: OldLace;
+    background-image: url("paper.jpg");
+    margin-left: 25%;
+    margin-right: 25%;
+}
 h1, h2, h3, h4, h5 {
     text-align: center;
     font-style: normal;
     font-weight: normal;
     line-height: 1.5;
     margin-top: 0.5em;
-    margin-bottom: 0.5em
-    }
+    margin-bottom: 0.5em; 
+    color: brown;
+}
 h1 {
     font-size: 300%;
     margin-top: 0.6em;
     margin-bottom: 0.6em;
     letter-spacing: 0.12em;
     word-spacing: 0.2em;
-    text-indent: 0
-    }
+    text-indent: 0; 
+    font-family: 'Brush Script MT', cursive;
+}
 h2 {
     font-size: 175%;
     margin-top: 2em;
-    margin-bottom: 1em
-    }
+    margin-bottom: 1em; 
+    font-family: Garamond, serif; 
+}
 h3 {
     font-size: 150%;
-    margin-top: 2em
-    }
-h4 {
-    font-size: 120%
-    }
-h5 {
-    font-size: 110%
-    }
+    margin-top: 2em; 
+    font-family: Garamond, serif; 
+}
 hr {
     width: 80%;
     margin-top: 2em;
     margin-bottom: 2em
-    }
-div.chapter {
-    page-break-before: always;
-    margin-top: 4em
-    }
-p {
-    text-indent: 1em;
-    margin-top: 0.25em;
-    margin-bottom: 0.25em
-    }
+}
+p { 
+    font-size: 120%; 
+    text-indent: 2em;
+    margin: 16pt 0;
+    font-family: 'Times New Roman', serif; 
+}
+#pg-machine-header p {
+    font-family: Georgia, serif;
+}
 p.poem {
     text-indent: 0%;
-    margin-left: 10%;
     font-size: 90%;
+    text-align: center;
     margin-top: 1em;
     margin-bottom: 1em
-    }
+}
+p.letter {
+    text-indent: 0%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1em;
+    margin-bottom: 1em
+}
 p.noindent {
     text-indent: 0%
-    }
+}
 p.center {
     text-align: center;
     text-indent: 0;
     margin-top: 1em;
     margin-bottom: 1em
-    }
+}
+p.footnote {
+    font-size: 90%;
+    text-indent: 0%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1em;
+    margin-bottom: 1em
+}
 p.asterism {
     margin-left: 25%;
     text-indent: 0%;
     letter-spacing: 0.12em;
     margin-top: 1em;
     margin-bottom: 1em
-    }
-div.fig {
-    display: block;
-    margin: 0 auto;
-    text-align: center
-    }
+}
+.mynote {
+    background-color: PapayaWhip;
+    color: SaddleBrown;
+    padding: 0.5em;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 95%; 
+    font-family: Georgia, serif;
+}
 a:link {
-    color: blue;
-    text-decoration: none
-    }
+    color: crimson;
+}
 a:visited {
-    color: blue;
-    text-decoration: none
-    }
+    color: crimson;
+}
 a:hover {
-    color: red
-    }
+    color: SandyBrown
+}
+/* Reference: https://www.w3schools.com/css/tryit.asp?filename=trycss_ex_images_card */ 
+img {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 16px 0 rgba(139, 58, 0, 0.8), 0 6px 20px 0 rgba(139, 58, 0, 0.2);
+    margin-bottom: 25px;
+}
